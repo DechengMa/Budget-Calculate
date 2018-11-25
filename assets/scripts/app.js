@@ -240,7 +240,7 @@ var controller = (function(budgetContr, UIContr) {
     
     return {
         init: function() {
-            console.log('App has started')
+            console.log('App has started');
             UIContr.displayBudget({
                 budget: 0,
                 totalInc: 0,
